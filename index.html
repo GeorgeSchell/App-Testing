@@ -42,16 +42,53 @@
       font-size: 13px;
       color: #aeaeb2;
     }
+    .trust-section {
+      margin-top: 32px;
+      text-align: left;
+      border-top: 1px solid #e5e5ea;
+      padding-top: 24px;
+    }
+    .trust-section h2 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .trust-section p {
+      font-size: 14px;
+      color: #3a3a3c;
+      margin-bottom: 12px;
+    }
+    .trust-section ol {
+      padding-left: 20px;
+      margin: 0 0 12px 0;
+    }
+    .trust-section li {
+      font-size: 14px;
+      color: #3a3a3c;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>QuadrexLandgut</h1>
     <p>Tap the button below on your iPhone to install the app.</p>
-    <a class="install-btn" href="itms-services://?action=download-manifest&url=https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/manifest.plist">
+    <a class="install-btn" href="itms-services://?action=download-manifest&url=https://GeorgeSchell.github.io/App-Testing/manifest.plist">
       Install App
     </a>
     <div class="note">Requires iOS 14 or later. Open this page in Safari.</div>
+
+    <div class="trust-section">
+      <h2>After installing, trust the developer certificate</h2>
+      <p>Because this app was not downloaded from the App Store, iOS will block it from opening until you manually trust the developer. Follow these steps:</p>
+      <ol>
+        <li>Open the <strong>Settings</strong> app on your iPhone.</li>
+        <li>Go to <strong>General → VPN &amp; Device Management</strong>.</li>
+        <li>Under <em>Enterprise App</em>, tap on <strong>George Schell</strong>.</li>
+        <li>Tap <strong>Trust "George Schell"</strong> and confirm.</li>
+      </ol>
+      <p>You only need to do this once. After trusting, you can open the app normally.</p>
+    </div>
   </div>
 </body>
 </html>
