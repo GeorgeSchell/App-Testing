@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Install QuadrexLandgut</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f2f2f7;
+      color: #1c1c1e;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 40px 32px;
+      max-width: 360px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 22px; margin-bottom: 8px; }
+    p { color: #6e6e73; font-size: 15px; margin-bottom: 28px; }
+    a.install-btn {
+      display: inline-block;
+      background: #007aff;
+      color: white;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #aeaeb2;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>QuadrexLandgut</h1>
+    <p>Tap the button below on your iPhone to install the app.</p>
+    <a class="install-btn" href="itms-services://?action=download-manifest&url=https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/manifest.plist">
+      Install App
+    </a>
+    <div class="note">Requires iOS 14 or later. Open this page in Safari.</div>
+  </div>
+</body>
+</html>
